@@ -1,4 +1,4 @@
-![]() badges
+[![Maintainability](https://api.codeclimate.com/v1/badges/a8431dcbf9357a661c20/maintainability)](https://codeclimate.com/github/tmikeschu/mogonono/maintainability)
 
 # MoGoNoNo
 
