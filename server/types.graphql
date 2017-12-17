@@ -1,0 +1,19 @@
+type User @model {
+  createdAt: DateTime!
+  emailAddress: String! @isUnique
+  emailSubscription: Boolean!
+  id: ID! @isUnique
+  name: String!
+  reports: [Report!]! @relation(name: "ReportCreatedBy")
+  updatedAt: DateTime!
+}
+
+type Report @model {
+  createdAt: DateTime!
+  dangerLevel: [String!]! @defaultValue(value: "[\"peev\",\"miss\",\"persistent\"]")
+  hazardType: [String!]! @defaultValue(value: "[\"road\",\"obstacle\",\"car\"]")
+  id: ID! @isUnique
+  latitude: Float!
+  longitude: Float!
+  user: User! @relation(name: "ReportCreatedBy")
+}
