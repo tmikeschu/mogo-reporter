@@ -1,8 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import App from "./";
 
-it("renders without crashing", () => {
-  const div = document.createElement("div");
-  ReactDOM.render(<App />, div);
+describe("<App />", () => {
+  const wrapper = shallow(<App />);
+
+  it("renders without crashing", () => {
+    expect(wrapper).toBeTruthy();
+    expect(wrapper).toMatchSnapshot();
+  });
 });
