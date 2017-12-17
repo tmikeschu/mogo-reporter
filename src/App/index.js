@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+
+import { ReportMap } from "./components";
 import "./styles.css";
 
 class App extends Component {
@@ -8,6 +10,8 @@ class App extends Component {
         <header className="App__header">
           <h1>Welcome to Mogonono</h1>
         </header>
+
+        <ReportMap />
       </div>
     );
   }

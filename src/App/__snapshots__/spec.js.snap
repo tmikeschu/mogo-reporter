@@ -11,5 +11,6 @@ exports[`<App /> renders without crashing 1`] = `
       Welcome to Mogonono
     </h1>
   </header>
+  <ReportMap />
 </div>
 `;
