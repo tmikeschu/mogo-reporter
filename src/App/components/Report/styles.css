@@ -1,0 +1,10 @@
+.Report .grid__title {
+  font-size: 2em;
+}
+
+.Report .grid__container {
+  display: grid;
+  grid-template-columns: 30% 25% 25% 25%;
+  background-color: transparent;
+  align-items: center;
+}

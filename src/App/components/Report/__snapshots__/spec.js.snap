@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Report /> mounts without crashing 1`] = `
+<Report>
+  <form
+    className="Report"
+  >
+    <span
+      className="grid__container"
+      key="danger"
+    >
+      <p
+        className="grid__title"
+      >
+        danger
+      </p>
+      <EmojiInput
+        input={
+          Object {
+            "emoji": "🕳️",
+            "name": "obstacle",
+          }
+        }
+        key="emojiInput-obstacle"
+        parent="danger"
+      >
+        <span
+          className="emoji"
+        >
+          <label
+            className="emoji--selected-false"
+            htmlFor="obstacle"
+          >
+            <span>
+              🕳️
+            </span>
+          </label>
+          <input
+            checked={false}
+            data-metric="danger"
+            id="obstacle"
+            type="radio"
+            value="obstacle"
+          />
+        </span>
+      </EmojiInput>
+      <EmojiInput
+        input={
+          Object {
+            "emoji": "🚘",
+            "name": "car",
+          }
+        }
+        key="emojiInput-car"
+        parent="danger"
+      >
+        <span
+          className="emoji"
+        >
+          <label
+            className="emoji--selected-false"
+            htmlFor="car"
+          >
+            <span>
+              🚘
+            </span>
+          </label>
+          <input
+            checked={false}
+            data-metric="danger"
+            id="car"
+            type="radio"
+            value="car"
+          />
+        </span>
+      </EmojiInput>
+    </span>
+    <span
+      className="grid__container"
+      key="level"
+    >
+      <p
+        className="grid__title"
+      >
+        level
+      </p>
+      <EmojiInput
+        input={
+          Object {
+            "emoji": "😨",
+            "name": "high",
+          }
+        }
+        key="emojiInput-high"
+        parent="level"
+      >
+        <span
+          className="emoji"
+        >
+          <label
+            className="emoji--selected-false"
+            htmlFor="high"
+          >
+            <span>
+              😨
+            </span>
+          </label>
+          <input
+            checked={false}
+            data-metric="level"
+            id="high"
+            type="radio"
+            value="high"
+          />
+        </span>
+      </EmojiInput>
+      <EmojiInput
+        input={
+          Object {
+            "emoji": "😵",
+            "name": "medium",
+          }
+        }
+        key="emojiInput-medium"
+        parent="level"
+      >
+        <span
+          className="emoji"
+        >
+          <label
+            className="emoji--selected-false"
+            htmlFor="medium"
+          >
+            <span>
+              😵
+            </span>
+          </label>
+          <input
+            checked={false}
+            data-metric="level"
+            id="medium"
+            type="radio"
+            value="medium"
+          />
+        </span>
+      </EmojiInput>
+      <EmojiInput
+        input={
+          Object {
+            "emoji": "😒",
+            "name": "low",
+          }
+        }
+        key="emojiInput-low"
+        parent="level"
+      >
+        <span
+          className="emoji"
+        >
+          <label
+            className="emoji--selected-false"
+            htmlFor="low"
+          >
+            <span>
+              😒
+            </span>
+          </label>
+          <input
+            checked={false}
+            data-metric="level"
+            id="low"
+            type="radio"
+            value="low"
+          />
+        </span>
+      </EmojiInput>
+    </span>
+  </form>
+</Report>
+`;
