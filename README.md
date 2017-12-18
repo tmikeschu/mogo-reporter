@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/tmikeschu/mogonono.svg?branch=ms%2F4%2Ftravis)](https://travis-ci.org/tmikeschu/mogonono)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a8431dcbf9357a661c20/maintainability)](https://codeclimate.com/github/tmikeschu/mogonono/maintainability)
+[![Build Status](https://travis-ci.org/tmikeschu/mogo-reporter.svg?branch=master)](https://travis-ci.org/tmikeschu/mogo-reporter)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f5f6795bc08462a51d6b/maintainability)](https://codeclimate.com/github/tmikeschu/mogo-reporter/maintainability)
 
 # MoGoNoNo
 
