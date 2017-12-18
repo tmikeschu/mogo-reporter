@@ -1,0 +1,11 @@
+.ReportMap {
+  height: 100%;
+  position: absolute;
+  width: 0;
+  overflow: hidden;
+  transition: width 500ms;
+}
+
+.ReportMap.visible {
+  width: 100%;
+}

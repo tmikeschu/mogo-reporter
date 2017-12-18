@@ -8,9 +8,28 @@ exports[`<App /> renders without crashing 1`] = `
     className="App__header"
   >
     <h1>
-      Welcome to Mogonono
+      MoGo Reporter
     </h1>
   </header>
-  <ReportMap />
+  <button
+    className="displayToggle"
+    onClick={[Function]}
+  >
+    <i
+      className="material-icons"
+    >
+      add
+    </i>
+  </button>
+  <div
+    className="App__body"
+  >
+    <ReportMap
+      visible={true}
+    />
+    <div>
+      Form
+    </div>
+  </div>
 </div>
 `;

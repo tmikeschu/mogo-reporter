@@ -6,12 +6,14 @@ import {
   Marker,
 } from "react-google-maps";
 
+import "./styles.css";
+
 const AsyncMap = withScriptjs(
   withGoogleMap(props => (
     /* eslint-disable no-undef */
     // allow global google call
     <GoogleMap {...props.mapDefaults} ref={props.onMapMounted}>
-      <Marker position={{ ...props.mapDefaults.defaultCenter }} />
+      <Marker position={{ ...props.mapDefaults.defaultCenter }} />{" "}
     </GoogleMap>
   ))
 );
@@ -54,11 +56,12 @@ class ReportMap extends PureComponent {
   };
 
   render() {
+    const visible = this.props.visible ? " visible" : "";
     return (
       <AsyncMap
         googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDttFtNppkWvWarNnGNvJsCEynQBVfO2K4&v=3.exp&libraries=geometry,drawing,places"
         loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `100vh` }} />}
+        containerElement={<div className={`ReportMap${visible}`} />}
         mapElement={<div style={{ height: `100%` }} />}
         mapDefaults={{ ...this.state }}
         onMapMounted={this.onMapMounted}
