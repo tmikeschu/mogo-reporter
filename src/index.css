@@ -1,0 +1,15 @@
+@import "./reset.css";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+:root {
+  --red: #ee332b;
+  --gray: #a8a9aa;
+  --dark: #333333;
+  --light: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

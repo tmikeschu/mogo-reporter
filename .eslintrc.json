@@ -1,0 +1,11 @@
+{
+  "extends": ["react-app", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "globals": {
+    "files": [ "*/**/*.spec.js*"],
+    "shallow": true
+  }
+}
