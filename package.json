@@ -2,8 +2,10 @@
   "name": "mogonono",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tmikeschu.github.io/mogo-reporter",
   "dependencies": {
     "apollo-client-preset": "^1.0.5",
+    "gh-pages": "^1.1.0",
     "graphql": "^0.12.0",
     "graphql-tag": "^2.6.0",
     "husky": "^0.14.3",
@@ -27,7 +29,9 @@
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "test-all": "yarn test --coverage --watch",
-    "test-coverage": "yarn test --coverage"
+    "test-coverage": "yarn test --coverage",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "enzyme": "^3.2.0",
