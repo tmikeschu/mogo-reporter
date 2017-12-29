@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmojiInput /> mounts without crashing 1`] = `
+<EmojiInput
+  input={
+    Object {
+      "emoji": "hi",
+      "name": "hello",
+    }
+  }
+  onClick={[Function]}
+  parent="bar"
+  selected="foo"
+>
+  <span
+    className="emoji"
+  >
+    <label
+      className="emoji--selected-false"
+      htmlFor="hello"
+    >
+      <span>
+        hi
+      </span>
+    </label>
+    <input
+      checked={false}
+      data-metric="bar"
+      id="hello"
+      onClick={[Function]}
+      type="radio"
+      value="hello"
+    />
+  </span>
+</EmojiInput>
+`;
